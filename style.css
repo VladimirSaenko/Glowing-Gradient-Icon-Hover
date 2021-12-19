@@ -95,26 +95,3 @@ ul li:nth-child(3) a, ul li:nth-child(3)::before, ul li:nth-child(3)::after {
 ul li:nth-child(4) a, ul li:nth-child(4)::before, ul li:nth-child(4)::after {
     background: linear-gradient(45deg, #ff0000, #ffc107);
 }
-
-@media(max-width: 300px) {
-    ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    ul li {
-        margin: 35px 0;
-        width: 100px;
-        height: 100px;
-    }
-
-    ul li a {
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        right: 25px;
-        bottom: 25px;
-        line-height: 50px;
-        font-size: 45px;
-    }
-}
