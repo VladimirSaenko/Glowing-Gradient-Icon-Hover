@@ -98,3 +98,24 @@ ul li:nth-child(3) a, ul li:nth-child(3)::before, ul li:nth-child(3)::after {
 ul li:nth-child(4) a, ul li:nth-child(4)::before, ul li:nth-child(4)::after {
     background: linear-gradient(45deg, #ff0000, #ffc107);
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    ul {
+        flex-direction: column;
+    }
+
+    ul li a .fa {
+        transform: scale(1.5);
+    }
+
+    ul li {
+        width: 125px;
+        height: 125px;
+        margin: 8px 0px;
+    }
+
+    ul li a:hover .fa {
+        opacity: 1;
+        transform: scale(2);
+    }
+}
