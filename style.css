@@ -69,6 +69,7 @@ ul li a {
     background: #000;
     font-size: 32px;
     border-radius: 50%;
+    text-decoration: none;
 }
 
 ul li a .fa {
